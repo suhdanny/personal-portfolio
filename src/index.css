@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main {
+  font-family: 'Inter', sans-serif;
+  background-color: black;
+  background-image: radial-gradient(
+    600px at var(--x) var(--y),
+    rgba(15, 65, 204, 0.3),
+    transparent 80%
+  );
+}
